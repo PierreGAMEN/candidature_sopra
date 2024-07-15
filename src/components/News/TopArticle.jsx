@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+import { Link } from "react-router-dom";
 import "./topArticle.scss";
 
 const TopArticle = ({image, altImage, date, title, excerpt}) => {
@@ -9,11 +10,11 @@ const TopArticle = ({image, altImage, date, title, excerpt}) => {
       <div className="container_article_img">
       <img src={image} alt={altImage} />
       </div>
-      <a href="/article/top10" className="container_article_content">
+      <Link to="/article/top10" className="container_article_content">
         <h3>{date}</h3>
         <h4>{title}</h4>
         <p>{excerpt}</p>
-      </a>
+      </Link>
     </article>
   );
 };
