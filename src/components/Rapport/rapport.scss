@@ -1,0 +1,54 @@
+.container_rapport {
+  margin: 0 auto;
+  width: 800px;
+  margin-top: 4rem;
+  position: relative;
+  margin-bottom: 4rem;
+
+  h2 {
+    margin-bottom: 2rem;
+  }
+
+  &_content {
+    .content {
+      width: 500px;
+      background-color: rgb(253, 242, 229);
+      height: 450px;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      justify-content: center;
+      align-items: center;
+      color: rgb(42, 20, 73);
+
+      h3 {
+        font-size: 1.6rem;
+        font-weight: 100;
+      }
+
+      a {
+        text-decoration: none;
+        padding: 0.5rem;
+        border: 2px solid rgba(130, 112, 165, 0.808);
+        transition: 0.3s;
+        text-transform: uppercase;
+        color: rgb(42, 20, 73);
+
+
+        &:hover {
+          background-color: rgba(91, 26, 177, 0.247);
+        }
+      }
+    }
+
+    .blank {
+      position: absolute;
+      top: 18%;
+      left: 55%;
+    }
+  }
+
+  img {
+    width: 250px;
+  }
+}
