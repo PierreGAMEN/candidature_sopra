@@ -28,7 +28,7 @@ const Sphere = () => {
           <sphereGeometry ref={sphereRef} args={[2.5, 32, 32]} />
           <meshStandardMaterial color="lightblue" wireframe />
         </mesh>
-        <Html position={[-5, 0, 1]}>
+        <Html position={[0, -2, 0]}>
           <div className="hero_text">{text}</div>
         </Html>
       </group>

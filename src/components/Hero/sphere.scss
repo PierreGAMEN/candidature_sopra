@@ -3,13 +3,14 @@
   width: 40vw;
   font-size: 40px;
   margin-bottom: 10px;
+  margin-left: -500px;
   cursor: pointer;
 
   &:after {
     content: "";
     position: absolute;
     top: 100%;
-    left: 0%;
+    left: -500px;
 
     width: 20px;
     height: 5px;
@@ -29,9 +30,9 @@
     content: "";
     position: absolute;
     top: 100%;
-    left: 0%;
+    left: -500px;
     transition: 1s;
-    width: 100%;
+    width: calc(100% + 500px);
     background: rgb(41, 69, 85);
     background: linear-gradient(
       90deg,
@@ -41,4 +42,113 @@
       rgb(189, 103, 4) 100%
     );
   }
-}
+};
+
+
+
+@media (max-width: 1430px) {
+  .hero_text {
+    width: 65vw;
+    margin-left: -400px;
+ 
+    &:after {
+      left: -400px
+    }
+      
+    }
+
+    .hero_text:hover {
+      &:after {
+        left: -400px;
+        width: calc(100% + 400px);
+      }
+  }
+};
+
+@media (max-width: 850px) {
+  .hero_text {
+    font-size: 30px;
+    width: 80vw;
+    margin-left: -300px;
+    margin-top: 75px;
+
+    &:after {
+      left: -300px
+    }
+      
+    }
+
+    .hero_text:hover {
+      &:after {
+        left: -300px;
+        width: calc(100% + 300px);
+      }
+
+  }
+};
+
+@media (max-width: 680px) {
+  .hero_text {
+    font-size: 25px;
+    width: 90vw;
+    margin-left: -250px;
+    margin-top: 75px;
+
+    &:after {
+      left: -250px
+    }
+      
+    }
+
+    .hero_text:hover {
+      &:after {
+        left: -250px;
+        width: calc(100% + 250px);
+      }
+
+  }
+};
+
+@media (max-width: 560px) {
+  .hero_text {
+    font-size: 25px;
+    width: 90vw;
+    margin-left: -200px;
+    margin-top: 75px;
+
+    &:after {
+      left: -200px
+    }
+      
+    }
+
+    .hero_text:hover {
+      &:after {
+        left: -200px;
+        width: calc(100% + 200px);
+      }
+
+  }
+};
+
+@media (max-width: 450px) {
+  .hero_text {
+    font-size: 25px;
+    width: 90vw;
+    margin-left: -180px;
+    margin-top: 50px;
+
+    &:after {
+      left: -180px
+    }
+      
+    }
+
+    .hero_text:hover {
+      &:after {
+        left: -180px;
+        width: calc(100% + 180px);
+      }
+
+  }
+};
