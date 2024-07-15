@@ -6,7 +6,7 @@ import "./news.scss";
 const News = () => {
   return (
     <section className="news">
-      <h2>What's News</h2>
+      <h2>What's new</h2>
 
       {/* Only one article on this part */}
       <div className="container_top_article">
