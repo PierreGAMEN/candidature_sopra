@@ -19,6 +19,5 @@ Ce projet vise à réinterpréter le site de Sopra Steria en y intégrant une le
 
 ## Voir le site
 
-https://candidature-soprasteria.netlify.app/
-[Site réinterprété](https://candidature-soprasteria.netlify.app/)
-[Site original](https://www.soprasteria.com/fr/)
+- [Site réinterprété](https://candidature-soprasteria.netlify.app/)
+- [Site original](https://www.soprasteria.com/fr/)
