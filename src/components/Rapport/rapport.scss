@@ -52,3 +52,20 @@
     width: 250px;
   }
 }
+
+@media (max-width: 850px) {
+  .container_rapport {
+    width: 85%;
+
+    .blank {
+      display: none;
+    }
+
+    &_content {
+      .content {
+        width: 100%;
+      }
+    }
+
+  }
+}
