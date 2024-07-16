@@ -11,7 +11,7 @@ const Commitment = () => {
         <h3>Développeur oui, mais...</h3>
         <p>
           Découvrez mon portfolio afin d'avoir une vue d'ensemble sur mon
-          profil, les projets que j'ai mené et l'apport réél que je peux vous
+          profil, les projets que j'ai menés et l'apport réél que je peux vous
           apporter.
         </p>
         <p>

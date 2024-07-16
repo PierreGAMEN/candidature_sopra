@@ -11,7 +11,7 @@ const sumArticle = [
   },
   {
     image:
-      "https://www.soprasteria.com/images/librariesprovider2/sopra-steria-corporate-images/people-large-image-(355x220)/thumbnail_spak_matrix_cloud_app.jpg?sfvrsn=ad2b41db_3",
+      "https://cdn.pixabay.com/photo/2017/08/15/12/04/helping-each-other-2643652_1280.jpg",
     title: "Parcours et motivations pour le poste",
     excerpt:
       "Cet article détail mon parcours,ma vision et surtout les motivations qui me poussent à postuler dans votre entreprise. ",
@@ -21,7 +21,7 @@ const sumArticle = [
   },
   {
     image:
-      "https://www.soprasteria.com/images/librariesprovider2/sopra-steria-corporate-images/images-800x800/ia-cloud-800.jpg?sfvrsn=bcdca1dc_3",
+      "https://cdn.pixabay.com/photo/2022/03/06/10/49/knowledge-7051348_960_720.jpg",
     title: "Liste de mes compétences",
     excerpt:
       "Une image vaut mille mots, la maîtrise d'une compétence technique vaut bien plus encore. Découvrez la liste de mes stacks dans cet article.",
