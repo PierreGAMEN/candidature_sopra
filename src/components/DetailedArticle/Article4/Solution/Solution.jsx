@@ -23,7 +23,7 @@ const Solution = () => {
           <Techno
             title="Tailwind CSS"
             image="https://svgl.app/library/tailwindcss.svg"
-            description="Utilisé sur quelques projet, tailwind est pratique mais, à mon sens, réduit la lisibilité du code."
+            description="Utilisé sur quelques projet, tailwind est pratique pour avoir une mise en forme rapide."
           />
           <Techno
             title="React"
@@ -33,7 +33,7 @@ const Solution = () => {
           <Techno
             title="Node.js"
             image="https://svgl.app/library/nodejs.svg"
-            description="Côté back-end, je n'utilise que Node.js pour développer mes projets. "
+            description="Côté back-end, j'utilise principalement Node.js pour développer mes projets. "
           />
           <Techno
             title="Express"
@@ -53,18 +53,19 @@ const Solution = () => {
           <Techno
             title="Sequelize"
             image="https://svgl.app/library/sequelize.svg"
-            description="Un ORM que j'utilise parfois mais j'aime écrire mes requêtes SQL à la main."
+            description="Un ORM que j'utilise parfois mais j'aime aussi écrire mes requêtes SQL à la main."
           />
           <Techno
             title="Github"
             image="https://svgl.app/library/github.svg"
-            description="C'est le seul gestionnaire de .git que j'utilise."
+            description="C'est le gestionnaire de .git que j'utilise."
           />
-          <Techno
-            title="Python (débutant)"
-            image="https://svgl.app/library/python.svg"
-            description="Très attiré par l'IA, comme de nombreux dev, je souhaite apprendre cette technologie."
+           <Techno
+          title="Three.js (débutant)"
+          image="https://svgl.app/library/threejs-light.svg"
+          description="Actuellement en apprentissage, je suis actuellement le cours 'three.js journey'"
           />
+          
           <Techno
             title="Vite"
             image="https://svgl.app/library/vitejs.svg"
