@@ -14,7 +14,7 @@ const sumArticle = [
       "https://cdn.pixabay.com/photo/2017/08/15/12/04/helping-each-other-2643652_1280.jpg",
     title: "Parcours et motivations pour le poste",
     excerpt:
-      "Cet article détail mon parcours,ma vision et surtout les motivations qui me poussent à postuler dans votre entreprise. ",
+      "Cet article détaille mon parcours,ma vision et surtout les motivations qui me poussent à postuler dans votre entreprise. ",
     alt: "",
     date: "16 Juillet 2024",
     url:"/article/motivations"
