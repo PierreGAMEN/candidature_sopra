@@ -1,0 +1,34 @@
+.layout_article {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+        max-width: 1600px;
+        height: 45vh;
+        width: 100%;
+        object-fit: cover;
+        margin-bottom: 5vh;
+        object-position: center;
+    }
+
+    ol {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .content_article {
+        width: 800px;
+    }
+}
+
+@media (max-width: 850px) {
+    .layout_article {
+
+        .content_article {
+            width: 85%;
+        }
+    }
+}
