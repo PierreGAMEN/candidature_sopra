@@ -2,6 +2,7 @@
 import SecondaryArticle from "./SecondaryArticle";
 import TopArticle from "./TopArticle";
 import "./news.scss";
+import sumArticle from "../../data/sum-article";
 
 const News = () => {
   return (
@@ -11,28 +12,32 @@ const News = () => {
       {/* Only one article on this part */}
       <div className="container_top_article">
         <TopArticle
-          image="https://www.soprasteria.com/images/librariesprovider2/default-album/default-images/sopra-steria.jpg"
-          date="16 Juillet 2024"
-          title="10 bonnes raisons d'engager Pierre GAMEN"
-          excerpt="Retrouvez dans cet article 10 bonnes raisons de m'engager dans votre entreprise, la dernière risque de vous surprendre."
+          image={sumArticle[0].image}
+          date={sumArticle[0].date}
+          title={sumArticle[0].title}
+          excerpt={sumArticle[0].excerpt}
+          url={sumArticle[0].url}
         />
       </div>
       {/* Three article on this part  */}
       <div className="container_secondary_article">
         <SecondaryArticle
-          image="https://www.soprasteria.com/images/librariesprovider2/sopra-steria-corporate-images/people-large-image-(355x220)/thumbnail_spak_matrix_cloud_app.jpg?sfvrsn=ad2b41db_3"
-          title="Parcours et motivations pour le poste"
-          excerpt="Cet article détail mon parcours,ma vision et surtout les motivations qui me poussent à postuler dans votre entreprise. "
+          image={sumArticle[1].image}
+          title={sumArticle[1].title}
+          excerpt={sumArticle[1].excerpt}
+          url={sumArticle[1].url}
         />
         <SecondaryArticle
-          image="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRlnBc63tTRk7_VH4gxkQPABU3k7KnLXw3BDTphmDNm4z5RLAQX"
-          title="Vers une alliance stratégique"
-          excerpt="L'alliance entre Sopra et Pierre GAMEN est une réussite. Découvrez comment ces deux acteurs du marché ont réussi un coup du tonnerre."
+          image={sumArticle[2].image}
+          title={sumArticle[2].title}
+          excerpt={sumArticle[2].excerpt}
+          url={sumArticle[2].url}
         />
         <SecondaryArticle
-          image="https://www.soprasteria.com/images/librariesprovider2/sopra-steria-corporate-images/images-800x800/ia-cloud-800.jpg?sfvrsn=bcdca1dc_3"
-          title="Mes compétences techniques"
-          excerpt="Une image vaut mille mots, la maîtrise d'une compétence technique vaut bien plus encore. Découvrez la liste de mes stacks dans cet article."
+         image={sumArticle[3].image}
+         title={sumArticle[3].title}
+         excerpt={sumArticle[3].excerpt}
+         url={sumArticle[3].url}
         />
       </div>
     </section>

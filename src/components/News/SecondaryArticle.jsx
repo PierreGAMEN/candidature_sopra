@@ -1,7 +1,8 @@
 /* eslint-disable react/prop-types */
+import { Link } from "react-router-dom";
 import "./secondaryArticle.scss";
 
-const SecondaryArticle = ({image, altImage, title, excerpt}) => {
+const SecondaryArticle = ({image, altImage, title, excerpt, url}) => {
 
   
   return (
@@ -10,7 +11,7 @@ const SecondaryArticle = ({image, altImage, title, excerpt}) => {
         <img src={image} alt={altImage} />
       </div>
       <div className="container_article_content">
-        <h4>{title}</h4>
+        <Link to={url}><h4>{title}</h4></Link>
         <p>{excerpt}</p>
       </div>
     </article>
