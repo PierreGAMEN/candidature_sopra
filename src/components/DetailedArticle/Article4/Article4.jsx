@@ -4,6 +4,7 @@ import TitleArticle from "../LayoutArticle/TitleArticle/TitleArticle";
 import sumArticle from "../../../data/sum-article";
 import FooterArticle from "../LayoutArticle/footerArticle/footerArticle";
 import { useEffect } from "react";
+import Solution from "./Solution/Solution";
 
 const Article4 = () => {
   useEffect(() => {
@@ -12,11 +13,12 @@ const Article4 = () => {
 
   return (
     <main className="layout_article">
-      <img src={sumArticle[3].image} alt={sumArticle[3].alt} />
+      <img src={sumArticle[2].image} alt={sumArticle[2].alt} />
       <div className="content_article">
-        <TitleArticle title={sumArticle[3].title} />
+        <TitleArticle title={sumArticle[2].title} />
 
-        {/* Ici ajouter votre contenu */}
+        
+        <Solution />
 
         <FooterArticle
           NumeroArticle1={0}
