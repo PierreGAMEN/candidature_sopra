@@ -2,12 +2,18 @@
   box-shadow: 0px 6px 15px rgb(217, 200, 233);
   padding-top: 1rem;
   padding-bottom: 1rem;
-  display: flex;
-  align-items: center;
   position: fixed;
   top: 0;
   z-index: 2;
   width: 100%;
   background-color: white;
-  justify-content: space-around;
+  z-index: 10;
+
+
+  &_primary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
 }

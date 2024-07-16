@@ -5,6 +5,7 @@
   margin-bottom: 10px;
   margin-left: -500px;
   cursor: pointer;
+  z-index: 1;
 
   &:after {
     content: "";
