@@ -17,7 +17,7 @@ const Article1 = () => {
       <div className="content_article">
         <TitleArticle title={sumArticle[0].title} />
 
-        <ol>
+        <ol style={{ textAlign: 'justify' }}>
           {reasonsToHireMe.map((reason, index) => (
             <li key={index}>
               <h3>{reason.title}</h3>

@@ -21,16 +21,6 @@ const sumArticle = [
   },
   {
     image:
-      "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRlnBc63tTRk7_VH4gxkQPABU3k7KnLXw3BDTphmDNm4z5RLAQX",
-    title: "Vers une alliance stratégique",
-    excerpt:
-      "L'alliance entre Sopra et Pierre GAMEN est une réussite. Découvrez comment ces deux acteurs du marché ont réussi un coup du tonnerre.",
-    date: "16 Juillet 2024",
-    alt: "",
-    url:"/article/alliance"
-  },
-  {
-    image:
       "https://www.soprasteria.com/images/librariesprovider2/sopra-steria-corporate-images/images-800x800/ia-cloud-800.jpg?sfvrsn=bcdca1dc_3",
     title: "Liste de mes compétences",
     excerpt:
@@ -38,6 +28,16 @@ const sumArticle = [
     date: "16 Juillet 2024",
     alt: "",
     url:"/article/skills"
+  },
+  {
+    image:
+      "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRlnBc63tTRk7_VH4gxkQPABU3k7KnLXw3BDTphmDNm4z5RLAQX",
+    title: "Vers une alliance stratégique",
+    excerpt:
+      "L'alliance entre Sopra et Pierre GAMEN est une réussite. Découvrez comment ces deux acteurs du marché ont réussi un coup du tonnerre.",
+    date: "16 Juillet 2024",
+    alt: "",
+    url:"/article/alliance"
   },
 ];
 

@@ -1,0 +1,76 @@
+.container_techno {
+
+    width: 44%;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    box-shadow: 2px 2px 4px 5px rgb(237, 233, 242);
+    cursor: pointer;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 150px;
+    text-align: center;
+    height: 200px;
+
+
+    img {
+
+    width: 50%;
+    height: 50%;
+    margin: 0;
+    object-fit: contain;
+
+        
+    }
+
+    &_text {
+        padding: 1rem;
+
+
+        
+        p{
+            opacity: 0;
+        }
+    }
+
+    
+}
+
+.anim {
+    animation: animDiv 1s linear forwards;
+}
+
+.animP {
+    animation: animP 1s ease-in forwards;
+}
+
+
+@keyframes animDiv {
+    0% {
+        transform: rotateX(0deg);
+    }
+    40% {
+        transform: rotateX(180deg);
+        
+    }
+    100% {
+        transform: rotateX(180deg);
+    }
+}
+
+@keyframes animP {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 960px) {
+    .container_techno {
+        height: 100px;
+        width: 80%;
+    }
+}
