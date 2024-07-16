@@ -23,7 +23,7 @@ const Article4 = () => {
         <FooterArticle
           NumeroArticle1={0}
           NumeroArticle2={1}
-          NumeroArticle3={2}
+          NumeroArticle3={3}
         />
       </div>
 

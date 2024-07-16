@@ -89,7 +89,7 @@ const Article3 = () => {
         <FooterArticle
           NumeroArticle1={0}
           NumeroArticle2={1}
-          NumeroArticle3={3}
+          NumeroArticle3={2}
         />
       </div>
     </main>
