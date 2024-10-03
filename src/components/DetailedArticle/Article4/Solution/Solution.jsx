@@ -57,7 +57,7 @@ const Solution = () => {
           />
           <Techno
             title="Github"
-            image="https://svgl.app/library/github.svg"
+            image="https://svgl.app/library/github-light.svg"
             description="C'est le gestionnaire de .git que j'utilise."
           />
            <Techno
