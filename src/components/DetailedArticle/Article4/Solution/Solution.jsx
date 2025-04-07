@@ -27,7 +27,7 @@ const Solution = () => {
           />
           <Techno
             title="React"
-            image="https://svgl.app/library/react.svg"
+            image="https://svgl.app/library/react_dark.svg"
             description="C'est la librairie que j'utilise le plus pour développer mes projets front."
           />
           <Techno
@@ -44,6 +44,11 @@ const Solution = () => {
             title="GraphQL"
             image="https://svgl.app/library/graphql.svg"
             description="Utilisé dans un projet de belle envergure, O'Talent, mon projet de fin de formation."
+          />
+          <Techno
+            title="Firebase"
+            image="https://svgl.app/library/firebase.svg"
+            description="J'ai utilisé Firebase pour le développement d'un Saas au sein de l'équipe de Addeus."
           />
           <Techno
             title="PostgresQL"
